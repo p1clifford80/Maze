@@ -13,7 +13,8 @@ public class MazePlayer2
     private int col;
     private String[][] myMaze;
     private int direction;
-    private boolean backTrack;
+    private boolean backTrack; 
+    private int junk;
 
     /**
      * Constructor for objects of class MazePlayer
@@ -149,6 +150,6 @@ public class MazePlayer2
                 System.out.print(myMaze[r][c]+" ");
             }
             System.out.println();
-        }
+        } 
     }
 }
